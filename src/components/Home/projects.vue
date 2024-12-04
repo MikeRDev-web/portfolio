@@ -1,12 +1,16 @@
 <script setup>
 import { ref } from 'vue';
 
+import taskifyImg from '/src/assets/images/projects/taskify.webp';
+import steamFinderImg from '/src/assets/images/projects/StreamFinder.webp';
+import speedStarMarketImg from '/src/assets/images/projects/speedstarmarket.webp';
+import atomicMusicImg from '/src/assets/images/projects/atomicmusic.webp';
 
 
 const projects = ref([
     {
         name: 'Taskify',
-        image: '/src/assets/images/projects/taskify.webp',
+        image: taskifyImg,
         githubLink: 'https://github.com/MikeRDev-web/Taskify',
         linkWeb: 'http://google.com',
         technologies: [
@@ -17,7 +21,7 @@ const projects = ref([
     },
     {
         name: 'StreamFinder',
-        image: '/src/assets/images/projects/StreamFinder.webp',
+        image: steamFinderImg,
         githubLink: 'https://github.com/MikeRDev-web/StreamFinder',
         linkWeb: 'http://google.com',
         technologies: [
@@ -29,7 +33,7 @@ const projects = ref([
     },
     {
         name: 'SpeedStarMarket',
-        image: '/src/assets/images/projects/speedstarmarket.webp',
+        image: speedStarMarketImg,
         githubLink: 'https://github.com/MikeRDev-web/SpeedStarMarket',
         linkWeb: 'http://google.com',
         technologies: [
@@ -41,7 +45,7 @@ const projects = ref([
     },
     {
         name: 'AtomicMusic',
-        image: '/src/assets/images/projects/atomicmusic.webp',
+        image: atomicMusicImg,
         githubLink: 'https://github.com/MikeRDev-web/AtomicMusic',
         linkWeb: 'http://google.com',
         technologies: [

@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router';
 
 <template>
     <header class="header card">
-        <RouterLink to="/" class="header__link">Contáctame</RouterLink>
+        <a href="#form" class="header__link">Contáctame</a>
     </header>
 </template>
 

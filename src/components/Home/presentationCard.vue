@@ -1,30 +1,36 @@
 <script setup>
 import { ref } from 'vue';
 
+import emailIco from '@/assets/icons/contacts/email.svg';
+import phoneIcon from '@/assets/icons/contacts/phone.svg';
+import locationIcon from '@/assets/icons/contacts/location.svg';
+
+import linkedinIcon from '@/assets/icons/contacts/linkedin.svg';
+import githubIcon from '@/assets/icons/contacts/location.svg';
 
 const contactDetails = ref([
     {
-        icon: '@/src/assets/icons/contacts/email.svg',
+        icon: emailIco,
         data: 'miguel.m.r.developer@gmail.com'
     },
     {
-        icon: '@/src/assets/icons/contacts/phone.svg',
+        icon: phoneIcon,
         data: '3316278001'
     },
     {
-        icon: '@/src/assets/icons/contacts/location.svg',
+        icon: locationIcon,
         data: 'Guadalajara, Jal.'
     }
 ])
 
 const social = ref([
     {
-        icon: '@/src/assets/icons/contacts/linkedin.svg',
+        icon: linkedinIcon,
         link: 'https://www.linkedin.com/in/miguel-angel-marmolejo-rodriguez-a04112225/',
         name: 'LinkedIn'
     },
     {
-        icon: '@/src/assets/icons/contacts/github.svg',
+        icon: githubIcon,
         link: 'https://github.com/MikeRDev-web',
         name: 'Github'
     },

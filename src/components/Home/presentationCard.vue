@@ -4,27 +4,27 @@ import { ref } from 'vue';
 
 const contactDetails = ref([
     {
-        icon: '/src/assets/icons/contacts/email.svg',
+        icon: '@/src/assets/icons/contacts/email.svg',
         data: 'miguel.m.r.developer@gmail.com'
     },
     {
-        icon: '/src/assets/icons/contacts/phone.svg',
+        icon: '@/src/assets/icons/contacts/phone.svg',
         data: '3316278001'
     },
     {
-        icon: '/src/assets/icons/contacts/location.svg',
+        icon: '@/src/assets/icons/contacts/location.svg',
         data: 'Guadalajara, Jal.'
     }
 ])
 
 const social = ref([
     {
-        icon: '/src/assets/icons/contacts/linkedin.svg',
+        icon: '@/src/assets/icons/contacts/linkedin.svg',
         link: 'https://www.linkedin.com/in/miguel-angel-marmolejo-rodriguez-a04112225/',
         name: 'LinkedIn'
     },
     {
-        icon: '/src/assets/icons/contacts/github.svg',
+        icon: '@/src/assets/icons/contacts/github.svg',
         link: 'https://github.com/MikeRDev-web',
         name: 'Github'
     },

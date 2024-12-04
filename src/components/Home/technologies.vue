@@ -1,30 +1,38 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
+//icons
+import htmlIcon from '/src/assets/icons/technologies/html.svg';
+import cssIcon from '/src/assets/icons/technologies/css.svg';
+import jsIcon from '/src/assets/icons/technologies/javascript.svg';
+import vueIcon from '/src/assets/icons/technologies/vue.svg';
+import phpIcon from '/src/assets/icons/technologies/php.svg';
+import gitIcon from '/src/assets/icons/technologies/git.svg';
+
 const technologies = ref([
   {
     name: 'HTML',
-    icon: '/src/assets/icons/technologies/html.svg',
+    icon: htmlIcon,
   },
   {
     name: 'CSS',
-    icon: '/src/assets/icons/technologies/css.svg',
+    icon: cssIcon,
   },
   {
     name: 'JavaScript',
-    icon: '/src/assets/icons/technologies/javascript.svg',
+    icon: jsIcon,
   },
   {
     name: 'PHP',
-    icon: '/src/assets/icons/technologies/php.svg',
+    icon: phpIcon,
   },
   {
     name: 'Vue.js',
-    icon: '/src/assets/icons/technologies/vue.svg',
+    icon: vueIcon,
   },
   {
     name: 'Git',
-    icon: '/src/assets/icons/technologies/git.svg',
+    icon: gitIcon,
   },
 ]);
 

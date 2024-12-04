@@ -6,6 +6,13 @@ import steamFinderImg from '/src/assets/images/projects/StreamFinder.webp';
 import speedStarMarketImg from '/src/assets/images/projects/speedstarmarket.webp';
 import atomicMusicImg from '/src/assets/images/projects/atomicmusic.webp';
 
+//icons
+
+import htmlIcon from '/src/assets/icons/technologies/html.svg';
+import cssIcon from '/src/assets/icons/technologies/css.svg';
+import jsIcon from '/src/assets/icons/technologies/javascript.svg';
+import vueIcon from '/src/assets/icons/technologies/vue.svg';
+import phpIcon from '/src/assets/icons/technologies/php.svg';
 
 const projects = ref([
     {
@@ -14,9 +21,9 @@ const projects = ref([
         githubLink: 'https://github.com/MikeRDev-web/Taskify',
         linkWeb: 'http://google.com',
         technologies: [
-            '/src/assets/icons/technologies/html.svg',
-            '/src/assets/icons/technologies/css.svg',
-            '/src/assets/icons/technologies/javascript.svg'
+            htmlIcon,
+            cssIcon,
+            jsIcon
         ]
     },
     {
@@ -25,10 +32,10 @@ const projects = ref([
         githubLink: 'https://github.com/MikeRDev-web/StreamFinder',
         linkWeb: 'http://google.com',
         technologies: [
-            '/src/assets/icons/technologies/html.svg',
-            '/src/assets/icons/technologies/css.svg',
-            '/src/assets/icons/technologies/javascript.svg',
-            '/src/assets/icons/technologies/php.svg'
+            htmlIcon,
+            cssIcon,
+            jsIcon,
+            phpIcon
         ]
     },
     {
@@ -37,10 +44,11 @@ const projects = ref([
         githubLink: 'https://github.com/MikeRDev-web/SpeedStarMarket',
         linkWeb: 'http://google.com',
         technologies: [
-            '/src/assets/icons/technologies/html.svg',
-            '/src/assets/icons/technologies/css.svg',
-            '/src/assets/icons/technologies/vue.svg',
-            '/src/assets/icons/technologies/php.svg'
+            htmlIcon,
+            cssIcon,
+            jsIcon,
+            phpIcon,
+            vueIcon
         ]
     },
     {
@@ -49,9 +57,10 @@ const projects = ref([
         githubLink: 'https://github.com/MikeRDev-web/AtomicMusic',
         linkWeb: 'http://google.com',
         technologies: [
-            '/src/assets/icons/technologies/html.svg',
-            '/src/assets/icons/technologies/css.svg',
-            '/src/assets/icons/technologies/php.svg'
+            htmlIcon,
+            cssIcon,
+            jsIcon,
+            phpIcon
         ]
     }
 ])

@@ -59,7 +59,7 @@ onMounted(() => {
 
 <style scoped>
 .technologies {
-    width: 100%;
+    width: 90%;
     height: max-content;
     padding: 0 10px;
     display: flex;
@@ -69,8 +69,8 @@ onMounted(() => {
     gap: 5px;
 }
 .technology {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -79,6 +79,7 @@ onMounted(() => {
     gap: 10px;
     border-radius: 10px;
     transform: scale(0.9);
+    flex: 1;
 }
 .technology__icon {
     width: 60%;

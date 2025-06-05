@@ -32,9 +32,13 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Esto hace que el fondo no se mueva */
+  background-attachment: fixed; 
   overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+img {
+  object-fit: contain;
 }
 
 .card {

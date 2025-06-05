@@ -18,6 +18,7 @@ import heading from './components/layod/heading.vue';
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
   }
 </style>

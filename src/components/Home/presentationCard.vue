@@ -6,7 +6,7 @@ import phoneIcon from '@/assets/icons/contacts/phone.svg';
 import locationIcon from '@/assets/icons/contacts/location.svg';
 
 import linkedinIcon from '@/assets/icons/contacts/linkedin.svg';
-import githubIcon from '@/assets/icons/contacts/location.svg';
+import githubIcon from '@/assets/icons/contacts/github.svg';
 
 const contactDetails = ref([
     {
@@ -60,9 +60,9 @@ const social = ref([
                 <a :href="`${item.link}`" target="_blank" class="social__link">{{ item.name }}</a>
             </div>
         </span>
-        <p class="description">
-            Soy un desarrollador frontend autodicacta con ganas de aportar y aprender en el mundo del desarrollo web. Me encanta dar vida a las ideas usando HTML, CSS, JavaScript, PHP y Vue. Estoy buscando mi primera oportunidad laboral para crecer profesionalmente, crear experiencias increíbles y aprender de un gran equipo.
-        </p>
+        <span class="description">
+            Soy un desarrollador frontend autodidacta con una fuerte pasión por crear experiencias web atractivas y funcionales. Domino tecnologías como HTML, CSS, JavaScript, Vue.js y PHP, que utilizo para transformar ideas en soluciones reales. Busco mi primera oportunidad laboral para seguir creciendo profesionalmente, aportar con entusiasmo y aprender de un equipo talentoso en el mundo del desarrollo web.
+        </span>
     </div>
 </template>
 
@@ -139,7 +139,7 @@ const social = ref([
 .description {
     width: 100%;
     height: max-content;
-    font-size: 90%;
+    font-size: 100%;
     text-align: center;
     font-weight: 400;
     border-top: 1px solid var(--color-secondary);
@@ -194,7 +194,6 @@ const social = ref([
 
   .description {
     font-size: 100%;
-    text-align: left;
     padding-top: 15px;
   }
 }

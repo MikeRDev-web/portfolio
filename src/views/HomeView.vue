@@ -11,9 +11,6 @@ import contactForm from '@/components/Home/contactForm.vue';
         <h1 class="sectionTitle">Lenguajes y tecnologías que domino</h1>
         <technologies/>
         <h1 class="sectionTitle">Mis proyectos</h1>
-        <span class="warning">
-        <p>Actualmente, la versión web de los proyectos no está disponible debido a problemas con el hosting. Estoy trabajando en solucionarlo, pero no te preocupes, puedes consultar el código fuente en GitHub.</p>
-        </span>
         <projects/>
         <h1 class="sectionTitle">¡Contáctame!</h1>
         <contactForm/>
@@ -26,11 +23,15 @@ import contactForm from '@/components/Home/contactForm.vue';
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    width: 90%;
 }
 .sectionTitle {
     text-shadow: 0 0 10px var(--color-background);
     font-size: 150%;
     margin: 1rem auto;
+    border-bottom: 5px solid var(--color-primary);
+    padding-bottom: 1rem;
+    width: 90%;
 }
 .warning {
     width: 90%;

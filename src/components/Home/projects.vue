@@ -55,7 +55,7 @@ const projects = ref([
         name: 'SpeedStarMarket',
         image: speedStarMarketImg,
         githubLink: 'https://github.com/MikeRDev-web/SpeedStarMarket',
-        linkWeb: '',
+        linkWeb: 'https://mintcream-reindeer-982212.hostingersite.com/',
         technologies: [
             htmlIcon,
             cssIcon,
@@ -63,7 +63,7 @@ const projects = ref([
             phpIcon,
             vueIcon
         ],
-        supportMovil: false,
+        supportMovil: true,
         supportDesktop: true
     },
     {

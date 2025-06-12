@@ -55,7 +55,6 @@
 
 <template>
   <div class="contact-form card">
-    <!-- Formulario de contacto con la prevención de la acción por defecto -->
     <form @submit.prevent="sendEmail" id="form">
       <div class="form-group">
         <label for="user_name">Nombre</label>

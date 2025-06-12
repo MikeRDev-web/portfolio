@@ -22,6 +22,51 @@ import desktop from '@/assets/icons/supports/desktop.svg';
 
 const projects = ref([
     {
+        name: 'StreamFinder (Versión Vue.js)',
+        image: streamFinderVue,
+        githubLink: 'https://github.com/MikeRDev-web/StreamFinder-vue-version',
+        linkWeb: 'https://skyblue-camel-733023.hostingersite.com/',
+        technologies: [
+            htmlIcon,
+            cssIcon,
+            jsIcon,
+            phpIcon,
+            vueIcon
+        ],
+        supportMovil: true,
+        supportDesktop: true
+    },
+    {
+        name: 'Taskify (Versión Vue.js)',
+        image: taskyfiVue,
+        githubLink: 'https://github.com/MikeRDev-web/Taskify-Vue-version',
+        linkWeb: 'https://darkcyan-ant-495840.hostingersite.com/',
+        technologies: [
+            htmlIcon,
+            cssIcon,
+            jsIcon,
+            phpIcon,
+            vueIcon
+        ],
+        supportMovil: true,
+        supportDesktop: true
+    },
+    {
+        name: 'SpeedStarMarket',
+        image: speedStarMarketImg,
+        githubLink: 'https://github.com/MikeRDev-web/SpeedStarMarket',
+        linkWeb: '',
+        technologies: [
+            htmlIcon,
+            cssIcon,
+            jsIcon,
+            phpIcon,
+            vueIcon
+        ],
+        supportMovil: false,
+        supportDesktop: true
+    },
+    {
         name: 'Taskify',
         image: taskifyImg,
         githubLink: 'https://github.com/MikeRDev-web/Taskify',
@@ -60,51 +105,6 @@ const projects = ref([
             phpIcon
         ],
         supportMovil: false,
-        supportDesktop: true
-    },
-    {
-        name: 'SpeedStarMarket',
-        image: speedStarMarketImg,
-        githubLink: 'https://github.com/MikeRDev-web/SpeedStarMarket',
-        linkWeb: '',
-        technologies: [
-            htmlIcon,
-            cssIcon,
-            jsIcon,
-            phpIcon,
-            vueIcon
-        ],
-        supportMovil: false,
-        supportDesktop: true
-    },
-    {
-        name: 'StreamFinder (Versión Vue.js)',
-        image: streamFinderVue,
-        githubLink: 'https://github.com/MikeRDev-web/StreamFinder-vue-version',
-        linkWeb: 'https://skyblue-camel-733023.hostingersite.com/',
-        technologies: [
-            htmlIcon,
-            cssIcon,
-            jsIcon,
-            phpIcon,
-            vueIcon
-        ],
-        supportMovil: true,
-        supportDesktop: true
-    },
-    {
-        name: 'Taskify (Versión Vue.js)',
-        image: taskyfiVue,
-        githubLink: 'https://github.com/MikeRDev-web/Taskify-Vue-version',
-        linkWeb: '',
-        technologies: [
-            htmlIcon,
-            cssIcon,
-            jsIcon,
-            phpIcon,
-            vueIcon
-        ],
-        supportMovil: true,
         supportDesktop: true
     }
 ])
@@ -154,7 +154,7 @@ const projects = ref([
 }
 
 .project {
-    width: 90%;
+    width: 100%;
     height: max-content;
     padding: 10px;
     display: flex;

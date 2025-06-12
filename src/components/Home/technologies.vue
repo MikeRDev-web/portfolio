@@ -59,7 +59,7 @@ onMounted(() => {
 
 <style scoped>
 .technologies {
-    width: 90%;
+    width: 100%;
     height: max-content;
     padding: 0 10px;
     display: flex;
@@ -69,7 +69,7 @@ onMounted(() => {
     gap: 5px;
 }
 .technology {
-    width: 200px;
+    width: 80%;
     height: 200px;
     padding: 10px;
     display: flex;
@@ -79,7 +79,6 @@ onMounted(() => {
     gap: 10px;
     border-radius: 10px;
     transform: scale(0.9);
-    flex: 1;
 }
 .technology__icon {
     width: 60%;
@@ -102,6 +101,7 @@ onMounted(() => {
     gap: 15px;
     transform: scale(1);
     transition: transform 0.2s ease-in-out;
+    flex: 1;
   }
 
   .technology:hover {

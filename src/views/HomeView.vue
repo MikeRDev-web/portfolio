@@ -23,11 +23,11 @@ import contactForm from '@/components/Home/contactForm.vue';
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    width: 90%;
+    width: 100vw;
 }
 .sectionTitle {
     text-shadow: 0 0 10px var(--color-background);
-    font-size: 150%;
+    font-size: 120%;
     margin: 1rem auto;
     border-bottom: 5px solid var(--color-primary);
     padding-bottom: 1rem;

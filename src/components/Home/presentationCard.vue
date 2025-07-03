@@ -7,6 +7,10 @@ import locationIcon from '@/assets/icons/contacts/location.svg';
 
 import linkedinIcon from '@/assets/icons/contacts/linkedin.svg';
 import githubIcon from '@/assets/icons/contacts/github.svg';
+import cvIcon from '@/assets/icons/contacts/cv.svg';
+
+import cvSpanish from '@/assets/cvs/CVEspanol.pdf';
+import cvEng from '@/assets/cvs/CVIngles.pdf';
 
 const contactDetails = ref([
     {
@@ -34,6 +38,16 @@ const social = ref([
         link: 'https://github.com/MikeRDev-web',
         name: 'Github'
     },
+    {
+        icon: cvIcon,
+        link: cvSpanish,
+        name: 'CV (Español)'
+    },
+    {
+        icon: cvIcon,
+        link: cvEng,
+        name: 'CV (Ingles)'
+    }
 ])
 
 </script>
@@ -125,8 +139,9 @@ const social = ref([
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 .social {
     display: flex;
@@ -134,7 +149,7 @@ const social = ref([
     gap: 5px;
 }
 .social__link {
-    font-size: 100%;
+    font-size: 90%;
 }
 .description {
     width: 100%;

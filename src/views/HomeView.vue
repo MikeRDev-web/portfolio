@@ -24,6 +24,7 @@ import contactForm from '@/components/Home/contactForm.vue';
     align-items: center;
     gap: 10px;
     width: 100vw;
+    padding: 0 10px;
 }
 .sectionTitle {
     text-shadow: 0 0 10px var(--color-background);

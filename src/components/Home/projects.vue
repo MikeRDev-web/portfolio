@@ -7,6 +7,7 @@ import speedStarMarketImg from '/src/assets/images/projects/speedstarmarket.webp
 import atomicMusicImg from '/src/assets/images/projects/atomicmusic.webp';
 import streamFinderVue from '/src/assets/images/projects/streamfindervue.webp';
 import taskyfiVue from '@/assets/images/projects/taskyfy.webp';
+import portfolio from '@/assets/images/projects/portafolio.webp';
 
 //icons
 
@@ -66,45 +67,45 @@ const projects = ref([
         supportMovil: true,
         supportDesktop: true
     },
+    // {
+    //     name: 'Taskify',
+    //     image: taskifyImg,
+    //     githubLink: 'https://github.com/MikeRDev-web/Taskify',
+    //     linkWeb: '',
+    //     technologies: [
+    //         htmlIcon,
+    //         cssIcon,
+    //         jsIcon
+    //     ],
+    //     supportMovil: false,
+    //     supportDesktop: true
+    // },
+    // {
+    //     name: 'StreamFinder',
+    //     image: steamFinderImg,
+    //     githubLink: 'https://github.com/MikeRDev-web/StreamFinder',
+    //     linkWeb: '',
+    //     technologies: [
+    //         htmlIcon,
+    //         cssIcon,
+    //         jsIcon,
+    //         phpIcon
+    //     ],
+    //     supportMovil: false,
+    //     supportDesktop: true
+    // },
     {
-        name: 'Taskify',
-        image: taskifyImg,
-        githubLink: 'https://github.com/MikeRDev-web/Taskify',
-        linkWeb: '',
-        technologies: [
-            htmlIcon,
-            cssIcon,
-            jsIcon
-        ],
-        supportMovil: false,
-        supportDesktop: true
-    },
-    {
-        name: 'StreamFinder',
-        image: steamFinderImg,
-        githubLink: 'https://github.com/MikeRDev-web/StreamFinder',
-        linkWeb: '',
+        name: 'Portafolio',
+        image: portfolio,
+        githubLink: 'https://github.com/MikeRDev-web/portfolio',
+        linkWeb: 'https://mikerdev.com/',
         technologies: [
             htmlIcon,
             cssIcon,
             jsIcon,
-            phpIcon
+            vueIcon
         ],
-        supportMovil: false,
-        supportDesktop: true
-    },
-    {
-        name: 'AtomicMusic',
-        image: atomicMusicImg,
-        githubLink: 'https://github.com/MikeRDev-web/AtomicMusic',
-        linkWeb: '',
-        technologies: [
-            htmlIcon,
-            cssIcon,
-            jsIcon,
-            phpIcon
-        ],
-        supportMovil: false,
+        supportMovil: true,
         supportDesktop: true
     }
 ])
@@ -175,9 +176,10 @@ const projects = ref([
 }
 
 .project__img {
-    width: 300px;
+    width: 90%;
     height: 150px;
     border-radius: 10px;
+    object-fit: contain;
 }
 
 .project__technologies {
@@ -264,7 +266,7 @@ const projects = ref([
 /* Media Query para pantallas grandes (pc) */
 @media (min-width: 768px) {
     .projects {
-        gap: 2rem;
+        gap: 0.5rem;
     }
 
     .project {
@@ -284,9 +286,10 @@ const projects = ref([
     }
 
     .project__img {
-        width: 95%;
+        width: 90%;
         height: 250px;
         margin: 0 auto;
+        object-fit: contain;
     }
 
     .project__technologies {

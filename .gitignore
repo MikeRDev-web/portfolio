@@ -7,12 +7,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node
 node_modules
 .DS_Store
 dist-ssr
 coverage
 *.local
 
+# No ignores dist (excepción)
+!dist/
+
+# Cypress
 /cypress/videos/
 /cypress/screenshots/
 
@@ -26,4 +31,6 @@ coverage
 *.sln
 *.sw?
 
+# TypeScript
 *.tsbuildinfo
+

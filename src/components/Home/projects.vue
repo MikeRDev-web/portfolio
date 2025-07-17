@@ -1,13 +1,12 @@
 <script setup>
 import { ref } from 'vue';
 
-import taskifyImg from '/src/assets/images/projects/taskify.webp';
-import steamFinderImg from '/src/assets/images/projects/StreamFinder.webp';
+
 import speedStarMarketImg from '/src/assets/images/projects/speedstarmarket.webp';
-import atomicMusicImg from '/src/assets/images/projects/atomicmusic.webp';
 import streamFinderVue from '/src/assets/images/projects/streamfindervue.webp';
 import taskyfiVue from '@/assets/images/projects/taskyfy.webp';
 import portfolio from '@/assets/images/projects/portafolio.webp';
+import iaabsurd from '@/assets/images/projects/iaabsurd.webp';
 
 //icons
 
@@ -67,33 +66,6 @@ const projects = ref([
         supportMovil: true,
         supportDesktop: true
     },
-    // {
-    //     name: 'Taskify',
-    //     image: taskifyImg,
-    //     githubLink: 'https://github.com/MikeRDev-web/Taskify',
-    //     linkWeb: '',
-    //     technologies: [
-    //         htmlIcon,
-    //         cssIcon,
-    //         jsIcon
-    //     ],
-    //     supportMovil: false,
-    //     supportDesktop: true
-    // },
-    // {
-    //     name: 'StreamFinder',
-    //     image: steamFinderImg,
-    //     githubLink: 'https://github.com/MikeRDev-web/StreamFinder',
-    //     linkWeb: '',
-    //     technologies: [
-    //         htmlIcon,
-    //         cssIcon,
-    //         jsIcon,
-    //         phpIcon
-    //     ],
-    //     supportMovil: false,
-    //     supportDesktop: true
-    // },
     {
         name: 'Portafolio',
         image: portfolio,
@@ -107,6 +79,21 @@ const projects = ref([
         ],
         supportMovil: true,
         supportDesktop: true
+    },
+    {
+        name: 'IAabsurd.com',
+        image: iaabsurd,
+        githubLink: '',
+        linkWeb: 'https://iaabsurd.com/',
+        technologies: [
+            htmlIcon,
+            cssIcon,
+            jsIcon,
+            vueIcon,
+            phpIcon
+        ],
+        supportMovil: true,
+        supportDesktop: false
     }
 ])
 </script>
@@ -134,7 +121,7 @@ const projects = ref([
                 </span>
             </div>
             <span class="project__link">
-                <a :href="item.githubLink" target="_blank" class="project__link-btn">Codigo</a>
+                <a :href="item.githubLink" target="_blank" class="project__link-btn" v-show="item.githubLink !== ''">Codigo</a>
                 <a :href="item.linkWeb" target="_blank" class="project__link-btn" :class="{disabled: item.linkWeb === ''}">Web</a>
             </span>
         </div>
